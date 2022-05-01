@@ -20,9 +20,9 @@ const clss = [
 
 let numberOfWrong = 0;
 let numberOfGood = 0;
+let timeCount = 0;
 let active = false;
 let count = 0;
-let timeCount = 0;
 let currentClass = "";
 let interva = setInterval(function () {
   timeCount += 1;
@@ -66,10 +66,6 @@ function addEvent(card, cls) {
   });
 }
 
-let interval = setInterval(function () {
-  timeCount += 1;
-  timer.innerText = timeCount;
-}, 1000);
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 const newClss = [];
 for (let i = 0; i < clss.length; i += 1) {

@@ -40,23 +40,38 @@ body {
 
 .card {
   background: url("/images/general.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
 }
 
 .ice1 {
   background: url("/images/1.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 .ice2 {
   background: url("/images/2.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 .ice3 {
   background: url("/images/3.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 .ice4 {
   background: url("/images/4.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 .ice5 {
   background: url("/images/5.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 .ice6 {
   background: url("/images/6.jpg") no-repeat center center/cover;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
