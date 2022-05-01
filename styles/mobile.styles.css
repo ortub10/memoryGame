@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("/images/background_game.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 50px;
+}
+#new_game_btn {
+  padding: 0.5rem;
+  border-radius: 6px;
+  background-color: aqua;
+}
+
+#contain {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column-reverse;
+  height: 70vh;
+}
+
+#detailes {
+  display: flex;
+  gap: 2rem;
+}
+
+#screen_game {
+  height: 80%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.card {
+  background: url("/images/general.jpg") no-repeat center center/cover;
+}

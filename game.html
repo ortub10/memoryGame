@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="all and (min-width:500px)"
+      href="./styles/desktop.styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="all and (max-width:499px)"
+      href="./styles/mobile.styles.css"
+    />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="header">Memory Game</h1>
+      <button id="new_game_btn">New Game</button>
+    </div>
+    <div id="contain">
+      <div id="detailes">
+        <div>
+          <h3>Number of wrong guesses:</h3>
+          <p id="wormg"></p>
+        </div>
+        <div>
+          <h3>Number of successfuls guesses:</h3>
+          <p id="successful"></p>
+        </div>
+        <div>
+          <h3>Time:</h3>
+          <p id="timer"></p>
+        </div>
+      </div>
+      <div id="screen_game">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
