@@ -1,21 +1,32 @@
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> // ///
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/desktop1.styles.css">
-    <title>🧠 Memory Game</title>
-</head>
-
-<body>
-    <div class="entrence-screen">
-        <div>
-            <a href="/game.html"> <button class='btn'>start game</button></a>
-        </div>
-        <p class='made-by'>GUDA TARK / OR TUBUL / SHHADY SERHAN</p>
-    </div>
-</body>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5c4607dc13.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/styleindex.styles.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <img src="./images/Capture.jpg" alt="" />
+    <button onclick="location.href='./game.html'" type="button">
+      Start game
+    </button>
+    <button onclick="myFunction()">How to play</button>
+    <div id="myDIV" style="display: none">the way to play is.....</div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+  </body>
 </html>

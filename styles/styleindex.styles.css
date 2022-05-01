@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("/images/brain-games-for-adults-7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button {
+  width: 50%;
+  align-self: center;
+  border-radius: 10px;
+  height: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+button:hover {
+  background-color: grey;
+}
+@media (min-width: 550px) {
+  img {
+    height: 113px;
+    width: 400px;
+    align-self: center;
+    margin-bottom: 40%;
+  }
+  button {
+    width: 20%;
+  }
+}
+#myDIV {
+  color: black;
+  text-align: center;
+}
+img {
+  margin-bottom: 30%;
+}
