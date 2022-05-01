@@ -1,65 +1,74 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  background: url("/images/background_game.jpg") no-repeat center center/cover;
-  height: 100vh;
+    background: url("/images/background_game.jpg") no-repeat center center/cover;
+    height: 100vh;
 }
 
 .header {
-  text-align: center;
-  padding: 50px;
+    text-align: center;
+    padding: 50px;
 }
+
 #new_game_btn {
-  padding: 0.5rem;
-  border-radius: 6px;
-  background-color: aqua;
+    padding: 0.5rem;
+    border-radius: 6px;
+    background-color: aqua;
 }
+
 #contain {
-  display: flex;
-  gap: 3rem;
-  height: 80vh;
-  justify-content: center;
+    display: flex;
+    gap: 3rem;
+    height: 80vh;
+    justify-content: center;
 }
+
 #detailes {
-  width: 20%;
-  border: 1px solid green;
-  border-radius: 5px;
-  display: grid;
-  gap: 2rem;
-  align-items: center;
-  justify-content: center;
+    width: 20%;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 #screen_game {
-  width: 40%;
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(4, 2fr);
+    width: 40%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 2fr);
 }
 
 .card {
-  background: url("/images/general.jpg") no-repeat center center/cover;
+    background: url("/images/general.jpg") no-repeat center center/cover;
 }
 
 .ice1 {
-  background: url("/images/1.jpg") no-repeat center center/cover;
+    background: url("/images/1.jpg") no-repeat center center/cover;
 }
+
 .ice2 {
-  background: url("/images/2.jpg") no-repeat center center/cover;
+    background: url("/images/2.jpg") no-repeat center center/cover;
 }
+
 .ice3 {
-  background: url("/images/3.jpg") no-repeat center center/cover;
+    background: url("/images/3.jpg") no-repeat center center/cover;
 }
+
 .ice4 {
-  background: url("/images/4.jpg") no-repeat center center/cover;
+    background: url("/images/4.jpg") no-repeat center center/cover;
 }
+
 .ice5 {
-  background: url("/images/5.jpg") no-repeat center center/cover;
+    background: url("/images/5.jpg") no-repeat center center/cover;
 }
+
 .ice6 {
-  background: url("/images/6.jpg") no-repeat center center/cover;
+    background: url("/images/6.jpg") no-repeat center center/cover;
 }
