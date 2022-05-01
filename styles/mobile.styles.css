@@ -41,3 +41,22 @@ body {
 .card {
   background: url("/images/general.jpg") no-repeat center center/cover;
 }
+
+.ice1 {
+  background: url("/images/1.jpg") no-repeat center center/cover;
+}
+.ice2 {
+  background: url("/images/2.jpg") no-repeat center center/cover;
+}
+.ice3 {
+  background: url("/images/3.jpg") no-repeat center center/cover;
+}
+.ice4 {
+  background: url("/images/4.jpg") no-repeat center center/cover;
+}
+.ice5 {
+  background: url("/images/5.jpg") no-repeat center center/cover;
+}
+.ice6 {
+  background: url("/images/6.jpg") no-repeat center center/cover;
+}
