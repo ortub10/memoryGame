@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+body {
+  overflow: hidden;
+}
+.btn {
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: transparent;
+  color: red;
+  border: 1px solid #fff;
+  margin-top: px;
+}
+.btn:hover {
+  border: 1px solid rgb(230, 17, 17);
+  box-shadow: 1px 5px 5px rgb(230, 17, 17);
+  border-radius: 10px;
+  color: rgb(230, 17, 17);
+  transition: border-radius 2s ease;
+}
+/* Entrence Screen */
+.entrence-screen {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/images/istockphoto.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  text-align: center;
+  justify-content: space-around;
+}
+.entrence-screen > div {
+  margin-top: 40vh;
+}
+.made-by {
+  font-size: 2.5rem;
+  color: rgb(226, 15, 15);
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
