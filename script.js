@@ -20,11 +20,7 @@ let currentClass = "";
 
 let interva = setInterval(function () {
   timeCount += 1;
-  if (timeCount >= 60) {
-    timer.innerText = `${Math.floor(timeCount / 60)} : ${timeCount % 60}`;
-  } else {
-    timer.innerText = timeCount;
-  }
+  timer.innerText = `${Math.floor(timeCount / 60)} : ${timeCount % 60}`;
 }, 1000);
 
 function cardListener(event) {}
