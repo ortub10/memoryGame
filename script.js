@@ -28,34 +28,39 @@ function cardListener(event) {}
 function addEvent(card, cls) {
   card.addEventListener("click", function (event) {
     if (!active) {
-      event.target.setAttribute("class", cls);
-      if (currentClass === "") {
-        currentClass = event.target;
-      } else {
-        if (
-          currentClass.getAttribute("class") ===
-          event.target.getAttribute("class")
-        ) {
-          numberOfGood += 1;
-          successful.innerText = numberOfGood;
-          currentClass = "";
-
-          count += 2;
-          if (count === 12) {
-            header.innerText = "You Won!!!";
-            active = true;
-            clearInterval(interva);
-          }
+      if (event.target.getAttribute("open") === "false") {
+        event.target.setAttribute("open", "true");
+        event.target.setAttribute("class", cls);
+        if (currentClass === "") {
+          currentClass = event.target;
         } else {
-          numberOfWrong += 1;
-          worng.innerText = numberOfWrong;
-          active = true;
-          setTimeout(() => {
-            event.target.setAttribute("class", "card");
-            currentClass.setAttribute("class", "card");
+          if (
+            currentClass.getAttribute("class") ===
+            event.target.getAttribute("class")
+          ) {
+            numberOfGood += 1;
+            successful.innerText = numberOfGood;
             currentClass = "";
-            active = false;
-          }, 1000);
+
+            count += 2;
+            if (count === 12) {
+              header.innerText = "You Won!!!";
+              active = true;
+              clearInterval(interva);
+            }
+          } else {
+            numberOfWrong += 1;
+            worng.innerText = numberOfWrong;
+            active = true;
+            setTimeout(() => {
+              event.target.setAttribute("class", "card");
+              currentClass.setAttribute("class", "card");
+              event.target.setAttribute("open", "false");
+              currentClass.setAttribute("open", "false");
+              currentClass = "";
+              active = false;
+            }, 1000);
+          }
         }
       }
     }
