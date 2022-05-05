@@ -5,19 +5,22 @@
 }
 
 body {
-    background: url("/images/background_game.jpg") no-repeat center center/cover;
+    background: url("/images/stock-photo-children-thinking-idea-1168274.jpg") no-repeat center center/cover;
     height: 100vh;
 }
 
 .header {
     text-align: center;
-    padding: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #new_game_btn {
     padding: 0.5rem;
     border-radius: 6px;
-    background-color: aqua;
+    background-color: antiquewhite;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 #contain {
@@ -25,21 +28,26 @@ body {
     gap: 3rem;
     height: 80vh;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
 #detailes {
-    width: 20%;
+  margin-top: 3px;
+    width: 15%;
     border: 1px solid green;
     border-radius: 5px;
     display: grid;
     gap: 2rem;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
+    text-align:center;
 }
 
 #screen_game {
-    width: 40%;
+    width: 60%;
     display: grid;
+    margin-top: 3px;
     grid-gap: 2rem;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(4, 2fr);
@@ -47,50 +55,76 @@ body {
 
 .card {
 
-  background: url("/images/general.jpg") no-repeat center center/cover;
+  background: url("/images/card-back.avif") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
   transform: rotateY(180deg);
+  border-radius: 10px;
+  width: 140px;
 }
-
+@media (min-width: 768px) and (max-width: 1000px) {
+  .card{
+  width: 100px
+  }
+  .ice1 {
+    width: 100px;
+  }
+}
 .ice1 {
-  background: url("/images/1.jpg") no-repeat center center/cover;
+  background: url("/images/boom.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  width: 140px;
 
 }
 
 .ice2 {
 
-  background: url("/images/2.jpg") no-repeat center center/cover;
+  background: url("/images/leon.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  width: 140px;
+
 }
 
 .ice3 {
-  background: url("/images/3.jpg") no-repeat center center/cover;
+  background: url("/images/elephant.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  width: 140px;
+
 
 }
 
 .ice4 {
-  background: url("/images/4.jpg") no-repeat center center/cover;
+  background: url("/images/bird.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  width: 140px;
+
 
 }
 
 .ice5 {
-  background: url("/images/5.jpg") no-repeat center center/cover;
+  background: url("/images/frog.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  width: 140px;
+
 
 }
 
 .ice6 {
-  background: url("/images/6.jpg") no-repeat center center/cover;
+  background: url("/images/monkey.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
+  border-radius: 10px;
+  width: 140px;
+
 }
    

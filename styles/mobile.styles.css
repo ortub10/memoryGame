@@ -5,24 +5,26 @@
 }
 
 body {
-    background: url("/images/background_game.jpg") no-repeat center center/cover;
+    background: url("/images/stock-photo-children-thinking-idea-1168274.jpg") no-repeat center center/cover;
     height: 100vh;
 }
 
 .header {
     text-align: center;
     padding: 50px;
+    border: 2px solid black;
+
 }
 
 #new_game_btn {
     padding: 0.5rem;
     border-radius: 6px;
-    background-color: aqua;
+    background-color: antiquewhite;
 }
 
 #contain {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     flex-direction: column-reverse;
     height: 70vh;
 }
@@ -30,6 +32,8 @@ body {
 #detailes {
     display: flex;
     gap: 2rem;
+    background-color: antiquewhite;
+    text-align:center;
 }
 
 #screen_game {
@@ -37,18 +41,19 @@ body {
     display: grid;
     grid-gap: 1rem;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns:repeat(4, 2fr);
 }
 
 .card {
-  background: url("/images/general.jpg") no-repeat center center/cover;
+  background: url("/images/card-back.avif") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
   transform: rotateY(180deg);
 }
 
+
 .ice1 {
-  background: url("/images/1.jpg") no-repeat center center/cover;
+  background: url("/images/boom.JPG") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -56,14 +61,14 @@ body {
 
 .ice2 {
 
-  background: url("/images/2.jpg") no-repeat center center/cover;
+  background: url("/images/leon.jpg") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
 
 }
 
 .ice3 {
-  background: url("/images/3.jpg") no-repeat center center/cover;
+  background: url("/images/elephant.jpg") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
 
@@ -71,7 +76,7 @@ body {
 
 .ice4 {
 
-  background: url("/images/4.jpg") no-repeat center center/cover;
+  background: url("/images/bird.jpg") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
 
@@ -79,7 +84,7 @@ body {
 
 .ice5 {
 
-  background: url("/images/5.jpg") no-repeat center center/cover;
+  background: url("/images/frog.jpg") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
 
@@ -87,7 +92,7 @@ body {
 
 .ice6 {
 
-  background: url("/images/6.jpg") no-repeat center center/cover;
+  background: url("/images/monkey.jpg") no-repeat center center/cover;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
